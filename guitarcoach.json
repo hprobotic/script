@@ -1,0 +1,52 @@
+var body = $response.body;
+var url = $request.url;
+console.log(body, url)
+var obj= {
+        api: {
+          message: {
+            login: {
+              avatar_url:
+                "https://manomaya.vo.llnwd.net/asset/mediahub/000/000/000/000/000000000000_avatar.png",
+              info: "login account",
+              user_id: "293059",
+              email: "cpt.neo@live.com",
+              level: "2",
+              name: "JohnPham",
+              username: "john.pham",
+              has_premium_trial: "0",
+              billing: {},
+              premium_start: "2021-03-06 15:04:51",
+              premium_end: "2022-03-17 01:11:35",
+              offline_id: {},
+              cohorte_id: {},
+              avatar_id: "0",
+              allocated_time: "0",
+              server_time: "26943338",
+              rank: {},
+              last_seen_ip: {},
+              last_seen_date: "2021-02-22 01:52:57",
+              sales_id: ["com.coachguitar.basicsforbeginners1"],
+              demos_id: ["com.coachguitar.aintnosunshine"],
+              favorites_id: [
+                "com.coachguitar.canonind",
+                "com.coachguitar.shapeofyoueasy",
+                "com.coachguitar.godfather",
+                "com.coachguitar.hotelcaliforniasolo",
+                "com.coachguitar.tearsinheaven",
+                "com.coachguitar.lethergo",
+                "com.coachguitar.tearsinheavenclassic",
+                "com.coachguitar.castleinthesky",
+              ],
+              favorite_categories: ["8"],
+              favorite_artists: [],
+              pushs: {
+                push_artist: true,
+                push_genre: true,
+                push_level: true,
+              },
+              devices: ["iphone:", "iphone:cg_6D8B5F347820D12BE9612B57"],
+            },
+          },
+        },
+      };
+$done({body: JSON.stringify(obj)});
