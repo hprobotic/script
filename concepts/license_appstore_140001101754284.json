@@ -1,0 +1,24 @@
+{
+  "_id": "license_appstore_140001101754284",
+  "_rev": "1-23869a933dd6c318a3f46a40e399dd9f",
+  "_revisions": {
+    "ids": [
+      "23869a933dd6c318a3f46a40e399dd9f"
+    ],
+    "start": 1
+  },
+  "createdDate": "2021-08-23T11:43:32.907547643Z",
+  "expiryDate": "2021-08-25T02:12:42Z",
+  "freeTrial": true,
+  "licenseStatus": 2,
+  "licenseTier": 4,
+  "organisationID": "5FB832EC-04F2-A891-9645-F21435A6D33E",
+  "originalTransactionID": "140001101754284",
+  "previousUserID": "FBD6CAB8-FC39-7F93-3C1D-69DDE091AD12",
+  "productID": "com.tophatch.Concepts.subscription.1year.freetrial",
+  "purchaseSource": 2,
+  "statusChangeDate": "2021-08-23T11:43:32.906856215Z",
+  "transactionID": "140001101754284",
+  "type": "user_license",
+  "userID": "5FB832EC-04F2-A891-9645-F21435A6D33E"
+}
