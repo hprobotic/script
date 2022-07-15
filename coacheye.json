@@ -1,0 +1,58 @@
+let obj = JSON.parse($response.body);
+obj= {
+    "type": "team_user",
+    "term": "Custom",
+    "payPeriodStart": "/Date(1657867795624)/",
+    "expirationDate": "/Date(1659163795624)/",
+    "state": "trial_active",
+    "storage": {
+      "limit": 2147483648,
+      "used": 0
+    },
+    "sharedStorageId": "52a06c22-d3b5-4ef2-afe0-f7966f89dc3c",
+    "memberSlots": {
+      "limit": 1,
+      "used": 1
+    },
+    "devices": {
+      "limit": 5,
+      "registered": [
+        "F1F0C88E-58B6-4AF8-BCB8-73F7A1DA6883"
+      ]
+    },
+    "inAppFeatures": {
+      "deviceToDevice": true,
+      "exportInHD": true,
+      "freeBinary": true,
+      "goPro": true,
+      "importFromCloud": true,
+      "lockerBackup": true,
+      "premiumTools": true,
+      "sharing": true
+    },
+    "availableTrials": [
+      {
+        "trialName": "instant_replay_trial",
+        "product": "instant_replay",
+        "durationInDays": 15
+      },
+      {
+        "trialName": "pro_trial",
+        "product": "pro",
+        "durationInDays": 15
+      },
+      {
+        "trialName": "teams_trial",
+        "product": "team_user",
+        "durationInDays": 15
+      },
+      {
+        "trialName": "vip_trial",
+        "product": "vip",
+        "durationInDays": 15
+      }
+    ],
+    "isStripeCustomer": true,
+    "willRenew": false
+  }
+$done({body: JSON.stringify(obj)});
